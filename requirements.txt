@@ -1,0 +1,11 @@
+--extra-index-url https://download.pytorch.org/whl/cu116
+notebook
+torch
+torchvision
+torchaudio
+matplotlib
+pytorch-lightning==1.7.6
+scikit-learn
+tqdm
+Pillow
+imageio
