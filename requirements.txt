@@ -5,6 +5,7 @@ torchvision
 torchaudio
 matplotlib
 pytorch-lightning==1.7.6
+tensorboard
 scikit-learn
 tqdm
 Pillow
