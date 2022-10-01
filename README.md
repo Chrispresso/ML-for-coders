@@ -1,6 +1,7 @@
 # Machine Learning for Coders
 
 ## Getting Started
+### Instructions for local installation
 - Download **64-bit** version of [Python](https://www.python.org/downloads/). You will want Python 3.7 or newer.
     - If you're on Windows [here](https://www.python.org/ftp/python/3.9.13/python-3.9.13-amd64.exe) is a direct link for Python 3.9.
 - Find the path where you installed it. If you did a basic installation it should be under `C:\Users\%username%\AppData\Local\Programs\Python\`. Go there and double check that you have a folder with whatever version you just installed.
@@ -18,6 +19,13 @@
     - The `--force-reinstall` is helpful if you previously had a 32-bit version of Python and are moving to the 64-bit version. Otherwise `pip` may use a cached version, which you don't want.
 - Launch jupyter notebook. If you have issues you can check the [docs](https://jupyter-notebook-beginner-guide.readthedocs.io/en/latest/execute.html). Open a command prompt and type `jupyter notebook` , or if you have multiple versions of Python you can run `python3 -m notebook` .
 - Navigate through the Jupyter Notebook UI to find the folder within the repository you just cloned and select the `.ipynb` that you wish to run. This should open the notebook in a new browser window. Although in a browser window, this is running locally on your machine now. Each "cell" within the notebook can be ran individuall by hitting `shift + enter`. The \[in\] cells consist of code to be ran, and the \[out\]  consist of the output after running the cell. If there's text in \[out\] then it means I've uploaded a notebook with my saved output to show you what you can expect. Be sure to still run the code within the \[in\].
+
+### Instructions for Google Colab
+- Go to https://colab.research.google.com/ and sign in using a Google profile. If you don't have a gmail account, go ahead and create one.
+- Go to File -> Open and then select the GitHub tab. Type in `https://github.com/Chrispresso/ML-for-coders` and hit enter.
+- Select the specific notebook you'd like to open from the list of notebooks found.
+- @NOTE if you find the notebook telling you it recommends using the GPU, you can enable GPU support by clicking Runtime -> Change Runtime Type and select GPU from the dropdown under Hardware Accelerator.
+
 
 ## FAQ
 1. Why is `pip` timing out?<br/>
